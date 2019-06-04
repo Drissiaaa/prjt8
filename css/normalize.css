@@ -1,4 +1,4 @@
-*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
+/*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
 
 /**
  * 1. Change the default font family in all browsers (opinionated).
@@ -9,7 +9,7 @@
 /*------------------------DOCUMMENT----------------------------*/
 html{
     font-family: sans-serif;
-    line height: 1.15;
+    line-height: 1.15;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
 }
@@ -64,4 +64,34 @@ abbr[title]{
 
 b, strong{
     font-weight: inherit;
+}
+
+code,
+kbd,
+samp{
+    font-family: monospcae, monospace;
+    font-size: 1em;
+}
+mark{
+    background-color: #ff0;
+    color: #000;
+}
+dfn{
+    font-style: italic;
+}
+small{
+    font-size: 80%;
+}
+sub,
+sup{ 
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+sub{ 
+    bottom: -0.25em;
+}
+sup{
+    top: -0.5em;
 }
